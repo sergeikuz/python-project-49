@@ -4,3 +4,4 @@
 
 ### GAME:
 1. [brain-even](https://asciinema.org/a/FesnuWUtAVWKbzqHtm4aLvBAM)
+2. [brain-calc]( https://asciinema.org/a/1nFyGQOECgY2kvFhQEsgZ47ic)
