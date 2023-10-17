@@ -7,7 +7,6 @@
 ### This project includes five mini-games:
 
 
-### GAME:
 1. [**brain-even:** *Determine if the number is even. You need to answer yes if the number is even, or no if it is odd.*](https://asciinema.org/a/FesnuWUtAVWKbzqHtm4aLvBAM)
 2. [**brain-calc:** *You are shown a random math expression, which you need to calculate and write down the correct answer.*](https://asciinema.org/a/1nFyGQOECgY2kvFhQEsgZ47ic)
 3. [**brain-gcd:** *You are shown a random numbers. And you have to calculate and enter the greatest common divisor of these numbers.*](https://asciinema.org/a/EfVryCIKaMMTbZuhB7m86BJQ9)
