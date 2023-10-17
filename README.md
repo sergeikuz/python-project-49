@@ -4,7 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/ab58d38fde5644fe65ba/maintainability)](https://codeclimate.com/github/sergeikuz/python-project-49/maintainability)
 
 
-### This project includes five mini-games:
+### This project includes five mini-games (please, click it to see how it works by asciinema):
 
 
 1. [**brain-even:** *Determine if the number is even. You need to answer yes if the number is even, or no if it is odd.*](https://asciinema.org/a/614934)
