@@ -4,7 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/ab58d38fde5644fe65ba/maintainability)](https://codeclimate.com/github/sergeikuz/python-project-49/maintainability)
 
 
-###This project includes five mini-games:
+### This project includes five mini-games:
 
 
 ### GAME:
