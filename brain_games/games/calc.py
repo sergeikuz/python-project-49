@@ -17,8 +17,8 @@ def game_calc():
 
     name = prompt.string('May I have your name? ')
     print(
-            f"Hello, {name}!"
-            f"\nWhat is the result of the expression?")
+        f"Hello, {name}!"
+        f"\nWhat is the result of the expression?")
 
     item = 0
     while item < 3:
@@ -29,17 +29,17 @@ def game_calc():
         math = random.choice(list_of_operators)
         result = math_operator(math, number1, number2)
         answer = prompt.integer(
-                f"Question: {number1} {math} {number2}"
-                f"\nYour answer: ")
+            f"Question: {number1} {math} {number2}"
+            f"\nYour answer: ")
 
         if result == int(answer):
             print('Correct!')
             item += 1
         else:
             print(
-                    f"'{answer}' is wrong answer ;(."
-                    f"Correct answer was '{result}'."
-                    f"\nLet's try again, {name}!")
+                f"'{answer}' is wrong answer ;(."
+                f"Correct answer was '{result}'."
+                f"\nLet's try again, {name}!")
             item = 4
 
         if item == 3:
