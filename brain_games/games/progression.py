@@ -13,17 +13,17 @@ def game_progression():
     item = 0
     while item < 3:
         num1 = random.randint(1, 20)
-        num2 = random.randint(80, 100)
+        num2 = random.randint(90, 120)
         step = random.randint(1, 8)
         list_of_num = []
 
         for i in range(num1, num2, step):
             list_of_num.append(i)
 
-        random_index = random.randint(0, 10)
+        random_index = random.randint(1, 11)
         correct_answer = list_of_num[random_index]
         list_of_num[random_index] = ".."
-        question = " ".join(map(str, list_of_num[0:10]))
+        question = " ".join(map(str, list_of_num[1:11]))
 
         answer = prompt.integer(
             f"Question: {question}"
