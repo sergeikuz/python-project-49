@@ -4,11 +4,11 @@ import random
 
 def game_progression():
     name = prompt.string(
-            "Welcome to the Brain Games!"
-            "\nMay I have your name? ")
+        "Welcome to the Brain Games!"
+        "\nMay I have your name? ")
     print(
-            f"Hello, {name}!"
-            f"\nWhat number is missing in the progression?')")
+        f"Hello, {name}!"
+        f"\nWhat number is missing in the progression?')")
 
     item = 0
     while item < 3:
@@ -26,8 +26,8 @@ def game_progression():
         question = " ".join(map(str, list_of_num[0:10]))
 
         answer = prompt.integer(
-                f"Question: {question}"
-                f"\nYour answer: ")
+            f"Question: {question}"
+            f"\nYour answer: ")
 
         if answer == correct_answer:
             print('Correct!')
@@ -35,9 +35,9 @@ def game_progression():
 
         else:
             print(
-                    f"'{answer}' is wrong answer ;(."
-                    f" Correct answer was '{correct_answer}'."
-                    f"\nLet's try again, {name}!")
+                f"'{answer}' is wrong answer ;(."
+                f" Correct answer was '{correct_answer}'."
+                f"\nLet's try again, {name}!")
             item = 4
 
         if item == 3:
