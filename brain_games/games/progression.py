@@ -20,7 +20,7 @@ def game_progression():
         for i in range(num1, num2, step):
             list_of_num.append(i)
 
-        random_index = random.randint(1, 11)
+        random_index = random.randint(0, 10)
         correct_answer = list_of_num[random_index]
         list_of_num[random_index] = ".."
         question = " ".join(map(str, list_of_num[1:11]))
