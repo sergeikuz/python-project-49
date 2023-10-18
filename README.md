@@ -35,7 +35,7 @@ make package-install
 **"Mind Games"** is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and prompt you to play it again. 
 
 
-##They are launched with simple commands:*
+## They are launched with simple commands:*
 ```commandline
 brain-even
 brain-calc
@@ -46,23 +46,33 @@ brain-prime
 :pencil2:*_Make sure that you have Python version 3.6 or higher installed._
 
 
-##Games:
+## Games:
 
 1. **brain-even:** *Determine if the number is even. You need to answer yes if the number is even, or no if it is odd.*
+
+
 [![asciicast](https://asciinema.org/a/614934.svg)](https://asciinema.org/a/614934)
 
 
 2. **brain-calc:** *You are shown a random math expression, which you need to calculate and write down the correct answer.*
+
+
 [![asciicast](https://asciinema.org/a/614985.svg)](https://asciinema.org/a/614985)
 
 
 3. **brain-gcd:** *You are shown a random numbers. And you have to calculate and enter the greatest common divisor of these numbers.*
+
+
 [![asciicast](https://asciinema.org/a/614989.svg)](https://asciinema.org/a/614989)
 
 
 4. **brain-progression:** *You are shown a random arithmetic progression. You have to calculate the forgiven number.*
+
+
 [![asciicast](https://asciinema.org/a/614987.svg)](https://asciinema.org/a/614987)
 
 
 5. **brain-prime:** *Determine if the number id prime. You need to answer yes if the number is prime, or no if it it is not this way.*
+
+
 [![asciicast](https://asciinema.org/a/614998.svg)](https://asciinema.org/a/614998)
