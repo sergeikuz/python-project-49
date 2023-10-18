@@ -30,6 +30,10 @@ cd python-project-49
 make package-install
 ```
 
+[![asciicast](https://asciinema.org/a/615503.svg)](https://asciinema.org/a/615503)
+
+
+
 ### Description:
 
 **"Mind Games"** is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and prompt you to play it again. 
