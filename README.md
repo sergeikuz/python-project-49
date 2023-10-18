@@ -76,3 +76,5 @@ brain-prime
 
 
 [![asciicast](https://asciinema.org/a/614998.svg)](https://asciinema.org/a/614998)
+
+### Good luck and have a fun game! 🤚
