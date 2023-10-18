@@ -6,6 +6,16 @@ authors = ["Sergei Kuznetsov <s8kuznetsov888@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"},]
 repository = "https://github.com/sergeikuz/python-project-49"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Framework :: Flake8",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "License :: Free For Educational Use",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment :: Arcade",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
