@@ -6,9 +6,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/ab58d38fde5644fe65ba/maintainability)](https://codeclimate.com/github/sergeikuz/python-project-49/maintainability)
 
 
-This is project ["Brain Games"](https://ru.hexlet.io/programs/python/projects/49){:target="_blank"} on the Python Development course on [Hexlet.io](https://ru.hexlet.io/programs/python)
+This is project ["Brain Games"](https://ru.hexlet.io/programs/python/projects/49) on the Python Development course on [Hexlet.io](https://ru.hexlet.io/programs/python)
 
-<a href="https://ru.hexlet.io/programs/python" target="_blank">Hexlet</a>
 
 ### Used technologies:
 ![](https://img.shields.io/badge/language-python-blue)
