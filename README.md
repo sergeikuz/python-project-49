@@ -32,7 +32,7 @@ make package-install
 ```
 
 [![asciicast](https://asciinema.org/a/615503.svg)](https://asciinema.org/a/615503)
-<script src="https://asciinema.org/a/615503.js" id="asciicast-615503" async="true"></script>
+
 
 
 ### Description:
