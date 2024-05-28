@@ -7,6 +7,7 @@
 
 
 This is project ["Brain Games"](https://ru.hexlet.io/programs/python/projects/49){:target="_blank"} on the Python Development course on [Hexlet.io](https://ru.hexlet.io/programs/python)
+
 <a href="http://example.com/" target="_blank">Hello, world!</a>
 
 ### Used technologies:
