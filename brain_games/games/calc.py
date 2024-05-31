@@ -1,15 +1,16 @@
 import prompt
 from random import randint
 import random
+import operator
 
 
-def math_operator(a, b, c):
-    if a == '+':
-        return b + c
-    elif a == '-':
-        return b - c
-    elif a == '*':
-        return b * c
+def math_operator(str_, a, b):
+    if str_ == '+':
+        return operator.add(a, b)
+    elif str_ == '-':
+        return operator.sub(a, b)
+    elif str_ == '*':
+        return operator.mul(a, b)
 
 
 def game_calc():
