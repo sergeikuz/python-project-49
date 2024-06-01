@@ -1,9 +1,12 @@
 #!/usr/bin/env python
-from brain_games.games.progression import game_progression
+
+
+from brain_games.games import progression
+from brain_games.games.engine import engine_for_brain_games
 
 
 def main():
-    game_progression()
+    engine_for_brain_games(progression)
 
 
 if __name__ == '__main__':
