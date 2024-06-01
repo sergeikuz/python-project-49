@@ -1,7 +1,9 @@
-import prompt
 from random import randint
 import random
 import operator
+
+
+RULE = "What is the result of the expression?"
 
 
 def math_operator(str_, a, b):
@@ -13,35 +15,12 @@ def math_operator(str_, a, b):
         return operator.mul(a, b)
 
 
-def game_calc():
-    print('Welcome to the Brain Games!')
+def game_conditions():
+    number1 = randint(20, 50)
+    number2 = randint(1, 10)
+    list_of_operators = ['+', '-', '*']
 
-    name = prompt.string('May I have your name? ')
-    print(
-        f"Hello, {name}!"
-        f"\nWhat is the result of the expression?")
-
-    item = 0
-    while item < 3:
-        number1 = randint(20, 50)
-        number2 = randint(1, 10)
-        list_of_operators = ['+', '-', '*']
-
-        math = random.choice(list_of_operators)
-        result = math_operator(math, number1, number2)
-        answer = prompt.integer(
-            f"Question: {number1} {math} {number2}"
-            f"\nYour answer: ")
-
-        if result == int(answer):
-            print('Correct!')
-            item += 1
-        else:
-            print(
-                f"'{answer}' is wrong answer ;(."
-                f"Correct answer was '{result}'."
-                f"\nLet's try again, {name}!")
-            item = 4
-
-        if item == 3:
-            print(f"Congratulations, {name}!")
+    math = random.choice(list_of_operators)
+    correct_answer = str(math_operator(math, number1, number2))
+    question = f"{number1} {math} {number2}"
+    return question, correct_answer
