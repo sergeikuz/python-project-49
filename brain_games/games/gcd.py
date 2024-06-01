@@ -1,32 +1,22 @@
-import prompt
 from random import randint
-import math
 
 
-def game_gcd():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(
-        f"Hello, {name}!"
-        f"\nFind the greatest common divisor of given numbers.")
-    item = 0
-    while item < 3:
-        number1 = randint(1, 100)
-        number2 = randint(1, 100)
-        answer = prompt.integer(
-            f"Question: {number1} {number2}"
-            f"\nYour answer: ")
-        max_divisor = math.gcd(number1, number2)
+RULE = "Find the greatest common divisor of given numbers."
 
-        if max_divisor == answer:
-            print('Correct!')
-            item += 1
 
+def game_conditions():
+    number1 = randint(1, 100)
+    number2 = randint(1, 100)
+
+    question = f"{number1} {number2}"
+
+    while number1 != 0 and number2 != 0:
+        if number1 > number2:
+            number1 = number1 % number2
         else:
-            print(
-                f"'{answer}' is wrong answer ;(."
-                f" Correct answer was '{max_divisor}'."
-                f"\nLet's try again, {name}!")
-            item = 4
-        if item == 3:
-            print(f"Congratulations, {name}!")
+            number2 = number2 % number1
+
+    answer = number1 + number2
+    correct_answer = str(answer)
+
+    return question, correct_answer
