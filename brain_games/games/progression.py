@@ -19,7 +19,7 @@ def generator_list_of_num():
 
 
 def game_conditions():
-    random_index = random.randint(0, 10)
+    random_index = random.randint(0, 9)
     list_of_num = generator_list_of_num()
 
     correct_answer = str(list_of_num[random_index])
