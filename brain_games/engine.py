@@ -12,7 +12,7 @@ def engine_for_brain_games(game):
         f"\n{game.RULE}")
     item = 0
     while item < MAX_ROUNDS:
-        question, correct_answer = game.game_conditions()
+        question, correct_answer = game.get_conditions()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if correct_answer == answer:
