@@ -5,15 +5,12 @@ RULE = "What number is missing in the progression?"
 
 
 def generate_list_of_num():
-    max_length_of_list = 10
+    max_length_of_list = slice(10)
     num1 = random.randint(1, 10)
     num2 = random.randint(90, 120)
     step = random.randint(1, 8)
-    list_of_num = []
 
-    for i in range(num1, num2, step):
-        if len(list_of_num) < max_length_of_list:
-            list_of_num.append(i)
+    list_of_num = list(range(num1, num2, step)[max_length_of_list])
 
     return list_of_num
 
