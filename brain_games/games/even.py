@@ -6,14 +6,18 @@ RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def is_even(number):
     if number % 2 == 0:
-        correct_answer = 'yes'
+        return True
     else:
-        correct_answer = 'no'
-    return correct_answer
+        return False
 
 
 def get_conditions():
-    number = randint(1, 999)
-    correct_answer = is_even(number)
+    number = randint(1, 100)
+    if is_even(number):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+
     question = f"{number}"
+
     return question, correct_answer
