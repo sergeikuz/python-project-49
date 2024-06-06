@@ -15,7 +15,7 @@ def is_prime(number):
         return 'no'
 
 
-def game_conditions():
+def get_conditions():
     random_number = randint(1, 999)
     correct_answer = is_prime(random_number)
     question = f'{random_number}'

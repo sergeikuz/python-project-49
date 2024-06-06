@@ -4,7 +4,7 @@ from random import randint
 RULE = "Find the greatest common divisor of given numbers."
 
 
-def game_conditions():
+def get_conditions():
     number1 = randint(1, 100)
     number2 = randint(1, 100)
 

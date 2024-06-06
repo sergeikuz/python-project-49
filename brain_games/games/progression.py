@@ -4,7 +4,7 @@ import random
 RULE = "What number is missing in the progression?"
 
 
-def generator_list_of_num():
+def generate_list_of_num():
     max_length_of_list = 10
     num1 = random.randint(1, 10)
     num2 = random.randint(90, 120)
@@ -18,9 +18,9 @@ def generator_list_of_num():
     return list_of_num
 
 
-def game_conditions():
+def get_conditions():
     random_index = random.randint(0, 9)
-    list_of_num = generator_list_of_num()
+    list_of_num = generate_list_of_num()
 
     correct_answer = str(list_of_num[random_index])
 

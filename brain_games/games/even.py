@@ -12,7 +12,7 @@ def is_even(number):
     return correct_answer
 
 
-def game_conditions():
+def get_conditions():
     number = randint(1, 999)
     correct_answer = is_even(number)
     question = f"{number}"
