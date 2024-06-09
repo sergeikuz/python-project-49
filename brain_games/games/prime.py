@@ -10,13 +10,19 @@ def is_prime(number):
         if (number % i == 0):
             k = k + 1
     if k <= 0:
-        return 'yes'
+        return True
     else:
-        return 'no'
+        return False
 
 
 def generate_data_for_game_round():
-    random_number = randint(1, 999)
-    correct_answer = is_prime(random_number)
+    random_number = randint(1, 99)
+
+    if is_prime(random_number):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+
     question = f'{random_number}'
+
     return question, correct_answer
