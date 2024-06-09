@@ -15,7 +15,7 @@ def generate_list_of_num():
     return list_of_num
 
 
-def get_conditions():
+def generate_data_for_game_round():
     random_index = random.randint(0, 9)
     list_of_num = generate_list_of_num()
 

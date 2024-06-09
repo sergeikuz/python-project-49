@@ -11,7 +11,7 @@ def is_even(number):
         return False
 
 
-def get_conditions():
+def generate_data_for_game_round():
     number = randint(1, 100)
     if is_even(number):
         correct_answer = 'yes'

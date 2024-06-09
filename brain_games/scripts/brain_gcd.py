@@ -2,11 +2,11 @@
 
 
 from brain_games.games import gcd
-from brain_games.engine import engine_for_brain_games
+from brain_games.engine import running_games_through_the_engine
 
 
 def main():
-    engine_for_brain_games(gcd)
+    running_games_through_the_engine(gcd)
 
 
 if __name__ == '__main__':

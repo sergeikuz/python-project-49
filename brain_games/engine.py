@@ -4,7 +4,7 @@ import prompt
 MAX_ROUNDS = 3
 
 
-def engine_for_brain_games(game):
+def running_games_through_the_engine(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(
@@ -12,7 +12,7 @@ def engine_for_brain_games(game):
         f"\n{game.RULE}")
     item = 0
     while item < MAX_ROUNDS:
-        question, correct_answer = game.get_conditions()
+        question, correct_answer = game.generate_data_for_game_round()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if correct_answer == answer:

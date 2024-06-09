@@ -15,7 +15,7 @@ def get_greatest_divisor(number1, number2):
     return answer
 
 
-def get_conditions():
+def generate_data_for_game_round():
     number1 = randint(1, 100)
     number2 = randint(1, 100)
 

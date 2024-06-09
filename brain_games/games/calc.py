@@ -15,7 +15,7 @@ def get_operation(str_, a, b):
         return operator.mul(a, b)
 
 
-def get_conditions():
+def generate_data_for_game_round():
     number1 = randint(20, 50)
     number2 = randint(1, 10)
     list_of_operators = ['+', '-', '*']
