@@ -11,9 +11,9 @@ This is project ["Brain Games"](https://ru.hexlet.io/programs/python/projects/49
 
 ### Used technologies:
 ![](https://img.shields.io/badge/language-python-blue)
-![](https://img.shields.io/badge/lybrary-prompt-brightgreen)
-![](https://img.shields.io/badge/lybrary-random-orange)
-![](https://img.shields.io/badge/lybrary-math-ff67b4)
+![](https://img.shields.io/badge/library-prompt-brightgreen)
+![](https://img.shields.io/badge/library-random-orange)
+![](https://img.shields.io/badge/library-math-ff67b4)
 
 This project was built using these tools:
 
