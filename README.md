@@ -10,10 +10,10 @@ This is project ["Brain Games"](https://ru.hexlet.io/programs/python/projects/49
 
 
 ### Used technologies:
-![](https://img.shields.io/badge/language-python-blue)
-![](https://img.shields.io/badge/library-prompt-brightgreen)
-![](https://img.shields.io/badge/library-random-orange)
-![](https://img.shields.io/badge/library-math-ff67b4)
+[![](https://img.shields.io/badge/language-python-blue)](https://www.python.org/)
+[![](https://img.shields.io/badge/library-prompt-brightgreen)](https://prompt.readthedocs.io/en/latest/)
+[![](https://img.shields.io/badge/library-random-orange)](https://docs.python.org/3/library/random.html#module-random)
+[![](https://img.shields.io/badge/library-math-ff67b4)](https://docs.python.org/3/library/math.html#module-math)
 
 This project was built using these tools:
 
